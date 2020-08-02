@@ -88,13 +88,24 @@ class _IntroScreenState extends State<IntroScreen>
                           child: Container(
                             width: MediaQuery.of(context).size.width,
                             height: MediaQuery.of(context).size.height,
-                            child: Image.asset(
-                              'images/whorier.png',
+                            child: Image.network(
+                              'https://raw.githubusercontent.com/Xx0w0wxX/Marubatsu/master/assets/images/whorier.png',
                               fit: BoxFit.fill,
                             ),
                           ),
                           radius: 100,
                         ),
+                      ),
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.only(top: 80.0),
+                    child: Container(
+                      child: Text(
+                        "This is created by flutter",
+                        style: GoogleFonts.pressStart2p(),
                       ),
                     ),
                   ),
