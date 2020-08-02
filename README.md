@@ -1,6 +1,6 @@
 # MaruBatsu
 
-Tic Tak Toe, which is also called `丸罰ゲーム` in Japan.
+Tic Tak Toe, which is also called `まるばつゲーム` in Japan.
 
 
 ![example](assets/demo.gif)
