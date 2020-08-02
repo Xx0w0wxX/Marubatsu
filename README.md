@@ -2,6 +2,7 @@
 
 Tic Tak Toe, which is also called `まるばつゲーム` in Japan.
 
+https://marubatsu.netlify.app
 
 ![example](assets/demo.gif)
 

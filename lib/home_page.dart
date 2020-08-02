@@ -89,6 +89,9 @@ class _HomePageState extends State<HomePage> {
                           radius: 3,
                         );
                       }
+                      if (_checkDraw()) {
+                        _resetBoard();
+                      }
                     },
                       child: Container(
                       decoration: BoxDecoration(
@@ -229,6 +232,15 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       xo = List.generate(9, (i)=> '');
     });
+  }
+
+  bool _checkDraw() {
+    for(var i = 0; i<xo.length; i++) {
+      if (xo[i] == '') {
+        return false;
+      }
+    }
+    return true;
   }
 
 }
