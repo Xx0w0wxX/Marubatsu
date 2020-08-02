@@ -20,3 +20,9 @@ Some components that I learned are as follows:
     - How to detect tap (GestureDetector)
     - How to get the width/height of screen (MediaQuery)
     - How to use animation (avatar_glow)
+
+## Reference
+
+I was inspired by the following.
+
+- [tictactoeflutter](https://github.com/createdbymitch/tictactoeflutter)
